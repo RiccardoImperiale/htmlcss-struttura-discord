@@ -66,5 +66,42 @@ nav {
 }
 
 .hero_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
     margin: auto;
+}
+
+
+/* first section styles --------------------------------->  */
+
+
+/* .debug section {
+    background-color: aqua;
+} */
+
+.debug .section_image {
+    background-color: rgb(44, 93, 255);
+}
+
+.debug .section_text {
+    background-color: rgb(243, 175, 254);
+}
+
+section {
+    padding: 2rem 12.5rem;
+}
+
+.section_container {
+    display: flex;
+}
+
+.section_text {
+    width: 40%;
+}
+
+.section_image {
+    width: 60%;
 }
