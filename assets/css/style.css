@@ -54,13 +54,13 @@ nav {
 /* hero section styles --------------------------------->  */
 
 .debug .hero {
-    height: 400px;
+    height: 500px;
     background-color: blue;
     padding: 2rem 0;
 }
 
 .debug .hero_card {
-    width: 900px;
+    max-width: 900px;
     height: 100%;
     background-color: rgb(255, 0, 230);
 }
@@ -78,12 +78,9 @@ nav {
 /* sections styles --------------------------------->  */
 
 
-/* .debug section {
-    background-color: aqua;
-} */
-
 .debug .section_image {
     background-color: rgb(44, 93, 255);
+    height: 600px;
 }
 
 .debug .section_text {
@@ -112,7 +109,7 @@ section {
 
 .debug .section_four_container {
     background-color: green;
-    height: 600px;
+    height: 1000px;
 }
 
 .section_four {
@@ -130,7 +127,7 @@ section {
 /* footer styles --------------------------------->  */
 
 .debug footer {
-    height: 500px;
+    height: 540px;
 }
 
 .debug .footer_social {
