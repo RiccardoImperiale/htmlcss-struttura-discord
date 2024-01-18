@@ -16,11 +16,12 @@
     border: .1rem dashed black;
 }
 
-.debug ul{
+.debug ul {
     width: 60%;
 }
 
-.debug .discord_logo, .debug .login_btn {
+.debug .discord_logo,
+.debug .login_btn {
     width: 20%;
 }
 
@@ -48,4 +49,22 @@ nav {
 
 .login_btn {
     text-align: end;
+}
+
+/* hero section styles --------------------------------->  */
+
+.debug .hero {
+    height: 400px;
+    background-color: blue;
+    padding: 2rem 12.5rem;
+}
+
+.debug .hero_card {
+    /* width: 900px; */
+    height: 100%;
+    background-color: rgb(255, 0, 230);
+}
+
+.hero_card {
+    margin: auto;
 }
