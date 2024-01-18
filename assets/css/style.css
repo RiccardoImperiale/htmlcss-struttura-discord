@@ -56,11 +56,11 @@ nav {
 .debug .hero {
     height: 400px;
     background-color: blue;
-    padding: 2rem 12.5rem;
+    padding: 2rem 0;
 }
 
 .debug .hero_card {
-    /* width: 900px; */
+    width: 900px;
     height: 100%;
     background-color: rgb(255, 0, 230);
 }
