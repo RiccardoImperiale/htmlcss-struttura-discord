@@ -126,3 +126,44 @@ section {
     justify-content: center;
     gap: 2rem;
 }
+
+/* footer styles --------------------------------->  */
+
+.debug footer {
+    height: 500px;
+}
+
+.debug .footer_social {
+    background-color: pink;
+    border: 1px dashed black;
+    flex-grow: 1.75;
+}
+
+.debug .footer_links {
+    background-color: rgb(9, 197, 175);
+    border: 1px dashed black;
+    flex-grow: 1;
+}
+
+.debug .footer_bottom {
+    background-color: aquamarine;
+}
+
+footer {
+    padding: 4rem 12.5rem;
+    background-color: #23272A;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+
+.footer_nav {
+    display: flex;
+    height: 80%;
+    border-bottom: .08rem solid white;
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+}
