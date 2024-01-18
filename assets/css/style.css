@@ -105,3 +105,7 @@ section {
 .section_image {
     width: 60%;
 }
+
+.section_two {
+    background-color: rgb(218, 218, 218);
+}
