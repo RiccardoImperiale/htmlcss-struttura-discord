@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug nav {
+    background-color: rgb(34, 243, 250);
+}
+
+.debug .discord_logo,
+.debug ul,
+.debug button {
+    background-color: rgb(255, 183, 0);
+    padding: 1rem 0;
+    border: .1rem dashed black;
+}
+
+.debug ul{
+    width: 60%;
+}
+
+.debug .discord_logo, .debug .login_btn {
+    width: 20%;
+}
+
+
+/* nav styles --------------------------------->  */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 12.5rem;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+}
+
+.nav_links a {
+    color: white;
+    text-decoration: none;
+}
+
+.login_btn {
+    text-align: end;
+}
